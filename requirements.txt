@@ -1,0 +1,20 @@
+# Librerie principali di Google Cloud e AI
+google-generativeai>=0.3.0  # Per Gemini API
+google-cloud-secretmanager>=2.0.0
+google-cloud-storage>=2.0.0
+google-auth>=2.0.0          # Spesso una dipendenza di altre librerie GCP, ma meglio specificarla
+
+# Libreria per la manipolazione delle immagini
+Pillow>=9.0.0
+
+# Libreria per interagire con Instagram API (non ufficiale)
+# Attenzione: instagrapi può essere instabile e soggetta a cambiamenti da parte di Instagram
+# Valuta alternative o sii preparato a gestire potenziali problemi.
+instagrapi>=1.17.0
+
+# Libreria per fare richieste HTTP (usata da Gemini o altre API se necessario)
+requests>=2.25.0
+
+# (Opzionale ma consigliato per Cloud Functions se il trigger è HTTP/CloudEvent
+# e non è fornito automaticamente dal runtime. Di solito è già presente nel runtime base.)
+# functions-framework>=3.0.0
