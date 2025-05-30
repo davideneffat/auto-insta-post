@@ -1,6 +1,6 @@
 # Librerie principali di Google Cloud e AI
 google-generativeai>=0.3.0  # Per Gemini API
-google-cloud-secretmanager>=2.0.0
+google-cloud-secret-manager>=2.0.0
 google-cloud-storage>=2.0.0
 google-auth>=2.0.0          # Spesso una dipendenza di altre librerie GCP, ma meglio specificarla
 
