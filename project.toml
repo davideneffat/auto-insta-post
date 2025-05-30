@@ -1,6 +1,14 @@
-[_]
-schema-version = "0.2"
+# project.toml
 
+[_]
+schema-version = "0.2" # Opzionale, ma buona pratica
+
+# Array di tabelle per le variabili d'ambiente
 [[io.buildpacks.env]]
 name = "GOOGLE_RUNTIME_VERSION"
-value = "3.11"
+value = "3.11" # Sostituisci con la versione Python desiderata (es. 3.10, 3.11, 3.12)
+
+# Se avessi altre variabili d'ambiente da passare alla build:
+# [[io.buildpacks.env]]
+# name = "ANOTHER_BUILD_ENV_VAR"
+# value = "its_value"
