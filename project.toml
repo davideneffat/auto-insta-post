@@ -1,0 +1,6 @@
+[_]
+schema-version = "0.2"
+
+[[io.buildpacks.env]]
+name = "GOOGLE_RUNTIME_VERSION"
+value = "3.11"
